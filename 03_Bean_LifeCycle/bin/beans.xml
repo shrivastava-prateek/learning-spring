@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+    <bean id="mydata" class="com.mypack.MyData" init-method="init" destroy-method="myDestroy">
+       <property name="data" value="120"/>
+    </bean>
+     <bean id="mydata1" class="com.mypack.MyData1" init-method="init" >
+       <property name="data" value="120"/>
+    </bean>
+    
+    <bean id ="mydemo" class="com.mypack.MyDemo">
+      <property name="demoId" value="20"/>
+      <property name="demoName" value="ClarkDemoSuper"/>
+    </bean>
+    <bean id="mydemouse" class="com.mypack.MyDemoUse">
+      <property name="useId" value="30"/>
+    </bean>
+    <bean id="mydemo_new" class="com.mypack.MyDemo">
+      <property name="demoId" value ="50"/>
+      <property name="demoName" value="BruceDemoBat"/>
+    </bean>
+    <bean class="com.mypack.Demo_BeanPost"/>
+</beans>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:util="http://www.springframework.org/schema/util"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/util
+    http://www.springframework.org/schema/util/spring-util.xsd">
+    
+    <bean id="s" class="com.pojo.Student" scope="prototype">
+       <property name="name" value="Prateek"/>
+       <property name="rollNo" value="63"/>
+    </bean>
+  <!--  <bean id="mybean" class="com.pojo.Student" p:name="hello" p:rollNo="123">
+       
+    </bean> -->
+    <bean id="msg" class="com.pojo.Message">
+      <constructor-arg value="hello from Spring"/> 
+      <constructor-arg value="10"/> 
+    </bean>
+    <bean id="demo" class="com.pojo.Demo">
+       <constructor-arg value="100" index="1"/>
+       <constructor-arg value="200" index="0"/>
+    </bean>
+    <bean id="mydate" class="com.pojo.Date">
+      <property name="day" value="15"/>
+      <property name="month" value="11"/>
+      <property name="year" value="1992"/>
+    </bean>
+    <bean id="myemp" class="com.pojo.MyEmp">
+      <property name="name" value="Prateek Shrivastava"/>
+      <property name="id" value="20528"/>
+      <property name="joinDate" ref="mydate"/> 
+    </bean>
+</beans>

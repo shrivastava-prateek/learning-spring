@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/aspectj-1.6.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/aspectjrt-1.6.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/cglib-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/cglib-nodep-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/common-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/commons-collections.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/commons-digester.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/org.springframework.jdbc-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/org.springframework.orm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/org.springframework.oxm-3.0.0.M3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/org.springframework.transaction-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/org.springframework.transaction-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/slf4j-api-1.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/spring_material/jar/slf4j-log4j12-1.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/SpringJars/commons-logging-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/SpringJars/org.springframework.asm-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/SpringJars/org.springframework.beans-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/SpringJars/org.springframework.context-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/SpringJars/org.springframework.core-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/SpringJars/org.springframework.expression-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Spring/SpringJars/aop/org.springframework.aop-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

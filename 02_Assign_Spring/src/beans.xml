@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+    <bean id="add" class="com.domain.Address">
+       <property name="city" value="Datia"/>
+       <property name="pincode" value="475661"/>
+       <property name="state" value="Madhya P"/>
+    </bean>
+    <bean id="emp" class="com.domain.Employee">
+       <property name="empAge" value="23"/>
+       <property name="empId" value="20528"/>
+       <property name="empName" value="Prateek"/>
+    </bean>
+    <bean id ="empinj" class="com.domain.EmployeeConsInj">
+         <property name="empAge" value="23"/>
+         <property name="empName" value="PrateekSetterInj"/>
+         <property name="empId" value="20528"/>
+         
+         <constructor-arg value="23"/>
+         <constructor-arg value="PrateekConInj"/>
+         <constructor-arg value="20528"/>
+         
+    </bean>
+     <bean id ="addinj" class="com.domain.AddressConsInj">
+         <property name="city" value="Datia"/>
+         <property name="pincode" value="475661"/>
+         <property name="state" value="Madhya PSetterInj"/>
+         <constructor-arg value="Datia"/>
+         <constructor-arg value="20528"/>
+         <constructor-arg value="Madhya PConsInj"/>
+    </bean>
+</beans>
